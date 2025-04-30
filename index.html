@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<!--tells the browser that this is a HTML5 document-->
+
+<html lang="en">
+<!--tells the browser that everything inside it is html
+'lang' attribute declares the language of the webpage, in this case it's english-->
+
+	<head>
+	<!--stores information of the head of the page (top of the page)-->
+	
+		<meta charset="utf-8">
+		<!--translates the letters, numbers & symbols used into bytes understood by computers-->
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!--'name=viewport' specifies the name for the metadata, in this case the view visible to the user,
+		'content=width=device-width' resizes the webpage to the width of any device it is viewed on,
+		'content initial-scale=1' sets the initial zoom of the webpage to not be zoomed in/out-->
+		
+		<title>
+		Red Taylor's Version
+		</title>
+		<!--'title' tag will show the text within it as the title of the page-->
+		
+		<link rel="icon" href="pics/redlogo.png" type="image/png">
+		<!--'rel' specifies the relationship between this file and the linked document, so the image it is linked to will become the icon in the page title,
+		'href' sets the destination, in this case a picture saved in the same folder as this file,
+		'type' specifies the media type and '/png' is the subtype-->
+		
+		<link rel="stylesheet" href="style.css">
+		<!--links external CSS to style the webpage-->
+		
+	</head>
+	<!--end of the head of the page-->
+	
+	<body>
+	<!--main content of the webpage-->
+	
+		<header class="main-header">
+		<!--'header' is used to indicate content at the top of the webpage-->
+		<!--'class' is used to specify certain elements within a class for CSS styling,
+		class name can be changed for each element, in this case the class for the header is 'main-header'-->
+		
+			<nav class="nav">
+			<!--'nav' tag defines a set of navigation links-->
+			
+				<ul>
+				<!--'ul' tag is used for an unordered list; elements in the list will not numbered-->
+					
+					<!--elements in a list (ordered and unordered) need to be placed within an 'li' tag-->
+					<li><a href="index.html"> Home </a></li>
+					<li><a href="about.html"> About </a></li>
+					<li><a href="others.html"> Others </a></li>
+					<!--'a' tag defines a hyperlink,
+					'href' sets the destination of the hyperlink which will open on the same tab-->
+					
+				</ul>
+				<!--end of unordered list tag-->
+				
+			</nav>
+			<!--end of 'nav' tag-->
+			
+			<hr>
+			<!--horizontal line-->
+			
+			<h1 class="headline">
+			TAYLOR SWIFT IS BACK- THIS TIME TO BREAK OUR HEARTS
+			</h1>
+			<!-- 'h1' tag is the largest heading font size-->
+			
+		</header>
+		<!--end of the page's header-->
+		
+		<section class="content container">
+		<!--'section' tag defines a section in the file,
+		'class=content container' refers to two classes within the same section for CSS styling-->
+			
+			<img class="cover" src="pics/redcover.jpg" alt="Red Album Cover">
+			<span></span>
+			<img class="cover" src="pics/taylorsversion.jpg" alt="Red (Taylor's Version) Album Cover">
+			<!--'img' is the image tag in HTML,
+			'src' refers to the image source,
+			'pics' is the folder the image is from,
+			'redcover.jpg' is the name of the image saved in the same folder as this file (changeable depending on the image to be used),
+			'alt' is the alternate text that will appear if image cannot be displayed,
+			'span' provides space between elements  whuch will appear in the same line-->
+			
+			<div>
+			<!--'div' provides space between elements by making them appear in different lines-->
+			
+			<p class="comment">
+			<!--'p' tag is for creating a formatted paragraph-->
+			
+			<small><i>
+			<!--'small' tag makes the text appear smaller,
+			'i' tag makes the text appear in italics-->
+			
+			A side by side comparison of the 2012 cover release of Red and the 2021 version
+			
+			</i></small>
+			<!--end of 'i' and 'small' tag-->
+			
+			</p>
+			<!--end of 'p' tag-->
+			
+			</div>
+			<!--end of 'div' tag-->
+			
+			<h5>
+			Taylor Swift is back with another re-recorded version of one her old albums, and this time it's the local fan-favourite, Red!
+			</h5>
+			
+			<div class="tweet">
+			<!--div tag is used here to enable the specification of a class for CSS styling-->
+			
+			<a href="https://twitter.com/taylorswift13/status/1405946647092371464?s=20" target="_blank">
+			Here's the announcement that left her fans speechless.
+			</a>
+			<!--'a' tag defines a hyperlink,
+			'href' sets the destination of the hyperlink,
+			'target' sets how the hyperlink will be opened,
+			'_blank' will open the hyperlink in a new tab,
+			text between the start and end of the 'a' tag is the text that will be displayed as the hyperlink-->
+			
+			</div>
+			<!--end of div tag-->
+			
+			<br><br>
+			<!--creates line break-->
+			
+			<div>
+			
+			<p class="tracklist">
+			See the full tracklist of <i>Red (Taylor's Version)</i> down below:
+			
+			<ol class="tracklist">
+			<!--ordered list; elements within the 'li' tags will be numbered on the webpage-->
+			
+			<li>State of Grace (Taylor's Version)</li>
+			<li>Red (Taylor's Version)</li>
+			<li>Treacherous (Taylor's Version)</li>
+			<li>I Knew You Were Trouble (Taylor's Version)</li>
+			<li>All Too Well (Taylor's Version)</li>
+			<li>22 (Taylor's Version)</li>
+			<li>I Almost Do (Taylor's Version)</li>
+			<li>We Are Never Ever Getting Back Together (Taylor's Version)</li>
+			<li>Stay Stay Stay (Taylor's Version)</li>
+			<li>The Last Time (Taylor's Version)</li>
+			<li>Holy Ground (Taylor's Version)</li>
+			<li>Sad Beautiful Tragic (Taylor's Version)</li>
+			<li>The Lucky One (Taylor's Version)</li>
+			<li>Everything has Changed (feat. Ed Sheeran) (Taylor's Version)</li>
+			<li>Starlight (Taylor's Version)</li>
+			<li>Begin Again (Taylor's Version)</li>
+			<li>The Moment I Knew (Taylor's Version)</li>
+			<li>Come Back...Be Here (Taylor's Version)</li>
+			<li>Girl at Home (Taylor's Version)</li>
+			<li>State of Grace (Acoustic Version)(Taylor's Version)</li>
+			<li>Ronan (Taylor's Version)</li>
+			<li>Better Man (Taylor's Version) (From the Vault)</li>
+			<li>Nothing New (feat. Phoebe Bridgers) (Taylor's Version) (From the Vault)</li>
+			<li>Babe (Taylor's Version) (From the Vault)</li>
+			<li>Message In a Bottle (Taylor's Version) (From the Vault)</li>
+			<li>I Bet You Think About Me (feat. Chris Stapleton) (Taylor's Version)</li>
+			<li> Forever Winter (Taylor's Version) (From the Vault)</li>
+			<li>Run (feat. Ed Sheeran) (Taylor's Version) (From the Vault)</li>
+			<li>The Very First Night (Taylor's Version) (From the Vault)</li>
+			<li>All Too Well (10 Minute Version) (From the Vault)</li>
+			
+			</ol>
+			<!--end of the ordered list-->
+			
+			<br>
+			<!--line break-->
+			
+			</p>
+			
+			</div>
+			
+			<div>
+			
+			<p class="content2">
+			The reissue of her fourth studio album includes nine new additions. The new spin on the old record also includes guest appearances from global superstars such as <a href="https://en.wikipedia.org/wiki/Ed_Sheeran" target="_blank">Ed Sheeran</a>, <a href="https://en.wikipedia.org/wiki/Phoebe_Bridgers" target="_blank">Phoebe Bridgers</a> and <a href="https://en.wikipedia.org/wiki/Chris_Stapleton" target="_blank">Chris Stapleton</a>.
+			</p>
+			
+			</div>
+			
+			<div>
+			
+			<p>
+			In honour of the revival of "sad girl autumn", let's do a lyrical breakdown of Ms Swift's number one heartbreak anthem, the phenomenally written five-minutes and twenty eight-second long song, All Too Well.
+			</p>
+			
+			</div>
+			
+			<button class="button" type="button">
+			<a href="lbd.html"> Click Here </a>
+			</button>
+			<!--'button' tag defines a clickable button,
+			designating the 'class=button' enables the class of the button to be specified for CSS styling,
+			'type' specifies the type of button, in this case it's just a clickable button-->
+			
+		</section>
+		<!--end of section tag-->
+		
+		<br><br>
+
+		<footer class="footer">
+		<!--'footer' tag indicates the content within it will always be under the other content of the webpage-->
+		
+			<i>Download <b>Red (Taylor's Version)</b> now</i>
+			<!--'b' tag makes the text appear bolded-->
+			
+			<ul>
+				<li>
+				<a href="https://redtaylorsversion.taylorswift.com/" target="_blank">
+				<img class="download" src="pics/spotify.png" alt="Spotify Logo">
+				</a>
+				</li>
+				<li>
+				<a href="https://music.apple.com/us/album/1590368448?ign-itscg=30440&ign-itsct=catchall_p2" target="_blank">
+				<img class="download" src="pics/applemusic.png" alt="Apple Music Logo">
+				</a>
+				</li>
+				<li>
+				<a href="https://music.apple.com/us/album/1589139584?ign-itscg=30440&ign-itsct=catchall_p3" target="_blank">
+				<img class="download" src="pics/itunes.png" alt="iTunes Logo">
+				</a>
+				</li>
+			</ul>
+			
+		</footer>
+		<!--end of the footer-->
+		
+	</body>
+	<!--end of the webpage's content-->
+
+</html>
+<!--end of the html file-->
