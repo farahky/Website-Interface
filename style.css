@@ -1,0 +1,176 @@
+/* this affects all HTML elements on the page */
+*{
+	box-sizing: border-box;
+	font-family: Garamond;
+	font-size: 1.05em;
+}
+/* 'box-sizing: border-box' includes padding and border in the width and height of all elements and not just the default content-box,
+'font-family' is the family of the font used on the webpage which is garamond, an in-built font for CSS,
+'font-size' is the size of the font on the webpage, by using em as its unit, the text size can be adjusted in all browsers. the smaller the value, the smaller the font size and vice versa */
+
+/* this affects all html elements under the html and body tag */
+html, body {
+	margin:0;
+	padding: 0;
+	background-color: rgba(156, 39, 6, 0.3);
+}
+/* 'margin' is used to create space around elements outside any defined borders. by setting it to 0, the top-bottom margin is auto and element will automatically be centered in the browser,
+'padding' is used to create space around elements inside any defined borders. by setting it to 0, there is no space between the content and border box. a higher padding value will create more space around an element and vice versa,
+'background-color' refers to the colour of the background. it is defined by using rgb color code and a (alpha) for transparency [with 1 being opaque and 0 being transparent] */
+
+/* this affects all html elements within the <ul> tag under the 'nav' class */
+.nav ul {
+	margin:0;
+	text-align: center;
+}
+/* 'text-align' aligns the text according to its value, in this case, centered */
+
+/* this affects all html elements within the <li> tag in the <ul> tag under the 'nav' class */
+.nav li {
+	display: inline-block;
+	padding: 0.5em;
+	color: white;
+	font-size: 1.1em;
+	font-weight: lighter;
+}
+/* 'display: inline-block' does not add a line-break after each element, making the elements appear in one line,
+'font-weight' sets the thickness/thinness of a text. 'lighter' makes the text not as thick as other texts */
+
+/* this affects all html elements within the <a> tag under the 'nav' class */
+.nav a {
+	display: inline-block;
+	color: white;
+	padding: 0.5em;
+	text-decoration: none;
+	font-size: 1.1em;
+	font-weight: lighter;
+}
+/* 'color' refers to the color of the text that appears instead of the hyperlink and can be defined using rgb/rgba/hex codes,
+'text-decoration: none' removes the underline that is available by default when a hyperlink is attached */
+ 
+/* this affects all html elements under the 'main-header' class */
+.main-header {
+	background-image: url("pics/headerbg.jpg");
+	background-color: rgba(0,0,0,0.6);
+	background-blend-mode: multiply;
+	padding-bottom: 30px;
+}
+/* 'background-image' refers to the image used for the webpage's background, by adding the url value the background image will be the image linked by the url,
+'background-blend-mode' defines the blending of background properties, in this case background-image and background-color. 'multiply' sets the background properties to be multiplied and produces a blend of the background properties,
+'padding-bottom' sets the bottom padding of an element, here by 30pixels  */
+
+/* this affects all html elements under the 'headline' class */
+.headline {
+	text-align: center;
+	margin: 0;
+	font-size: 2em;
+	color: white;
+}
+
+/* this affects all html elements under the 'content' class */
+.content {
+	margin: 1em;
+}
+/* this is a generic setting for  everything under the 'content' class to have a margin of 1em */
+
+/* this affects all html elements under the 'container' class */
+.container {
+	max-width: 700px;
+	margin: auto;
+	padding: 1.5em;
+	text-align: justify;
+}
+/* these are visual changes that appear after the 'content' class while being in the same tag,
+'max-width' defines the maximum width of an element on a device's screen, the larger it is, the wider the width of the webpage's content,
+'margin: auto' sets the left-right margin of the elements automatically, making it centered */
+
+/* this affects all html elements under the 'cover' class */
+.cover {
+	width: 250px;
+	height: 250px;
+	position: relative;
+	left: 75px;
+}
+/* 'width' and 'height' refers to the width and height of the elements (in this case: images),
+'position' specifies the positioning method, 'relative' means the elements are positioned relative to its normal position,
+by setting 'left' the position of the element is adjusted from the left by the amount specified, here it is 75pixels  */
+
+/* this affects all html elements under the 'comment' class */
+.comment {
+	margin: 0;
+	text-align: center;
+	font-size: 0.95em;
+}
+
+/* this affects all html elements within the <a> tag under the 'tweet' class */
+.tweet a {
+	color: rgb(194, 24, 7);
+}
+
+/* this affects all html elements under the 'tracklist' class */
+.tracklist {
+	max-width: 700px;
+	margin: 0;
+}
+
+/* this affects all html elements within the <a> tag under the 'content2' class */
+.content2 a {
+	text-decoration: none;
+	color: rgb(194, 24, 7);
+}
+
+/* this affects all html elements under the 'button' class */
+.button {
+	background-color: rgba(156, 39, 6, 0.8);
+	color: rgb(36,36,36);
+	padding: 15px 32px;
+	text-align: center;
+	font-size: 16px;
+	border-radius: 20px;
+}
+/* since this element is a button in html, it automatically has a border,
+'border-radius' defines the radius of its corners, here we specify it using pixels */
+
+/* this affects all html elements within the <a> tag in the 'button' class */
+.button a {
+	text-decoration: none;
+	color: black;
+}
+
+/* this affects all html elements under the 'button' class but only when the mouse is over it */
+.button:hover {
+	background-color: rgb(156, 39, 6)
+}
+/* background color of the button will change to the color specified using rgb code when the mouse hovers over the button */
+
+/* this affects all html elements under the 'footer' class */
+.footer {
+	background-image: url("pics/headerbg.jpg");
+	background-position: bottom;
+	background-color: rgba(0,0,0,0.6);
+	background-blend-mode: multiply;
+	color: white;
+	padding: 0.25em;
+	text-align: center;
+}
+/* background-position' refers to the position of the image used as the background. 'bottom' refers to the bottom of the image */
+
+/* this affects all html elements within the <ul> tag under the 'footer' class */
+.footer ul {
+	margin:0;
+}
+
+/* this affects all html elements within the <li> tag in the <ul> tag under the 'footer' class */
+.footer li {
+	display: inline-block;
+	padding: 1.0em;
+	color: white;
+	font-size: 1.1em;
+	font-weight: lighter;
+}
+
+/* this affects all html elements under the 'download' class */
+.download {
+	width: 30px;
+	height: 30px;
+}
