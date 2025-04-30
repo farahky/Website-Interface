@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<!--tells the browser that this is a HTML5 document-->
+
+<html lang="en">
+<!--tells the browser that everything inside it is html,
+'lang' attribute declares the language of the webpage, in this case it's english-->
+
+	<head>
+	<!--stores information of the head of the page (top of the page)-->
+	
+		<meta charset="utf-8">
+		<!--translates the letters, numbers & symbols used into bytes understood by computers-->
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!--'name=viewport' specifies the name for the metadata, in this case the view visible to the user,
+		'content=width=device-width' resizes the webpage to the width of any device it is viewed on,
+		'content initial-scale=1' sets the initial zoom of the webpage to not be zoomed in/out-->
+		
+		<title>
+		All Too Well
+		</title>
+		<!--'title' tag will show the text within it as the title of the page-->
+		
+		<link rel="icon" href="pics/redlogo.png" type="image/png">
+		<!--'rel' specifies the relationship between this file and the linked document, so the image it is linked to will become the icon in the page title,
+		'href' sets the destination, in this case a picture saved in the same folder as this file,
+		'type' specifies the media type and '/png' is the subtype-->
+		
+		<link rel="stylesheet" href="style2.css">
+		<!--links external CSS to style the webpage-->
+		
+	</head>
+	<!--end of the head of the page-->
+	
+	<body>
+	<!--main content of the webpage-->
+	
+		<header class="main-header">
+		<!--'header' tag is used to indiciate content at the top of the webpage-->
+		<!--'class' is used to specify certain elements within a class for CSS styling,
+		class name can be changed for each element, in this case the class for the header is 'main-header'-->
+		
+			<nav class="nav">
+			<!--'nav' tag defines a set of navigation links-->
+			
+				<ul>
+				<!--'ul' tag is used for an unordered list; elements in the list will not numbered-->
+					
+					<!-- elements in a list (ordered and unordered) needs to be placed within an 'li' tag-->
+					<li><a href="index.html"> Home </a></li>
+					<li><a href="about.html"> About </a></li>
+					<li><a href="others.html"> Others </a></li>
+					<!--'a' tag defines a hyperlink,
+					'href' sets the destination of the hyperlink which will open on the same tab-->
+					
+				</ul>
+				<!--end of unordered list tag-->
+				
+			</nav>
+			<!--end of 'nav' tag-->
+			
+			<hr>
+			<!--horizontal line-->
+			
+		</header>
+		<!--end of the page's header-->
+		
+		<section class="content container">
+		<!--'section' tag defines a section in the file,
+		'class=content container' refers to two classes within the same section for CSS styling-->
+		
+			<h2 class="title1">
+			What is "All Too Well" about?
+			</h2>
+			<!--'h2' tag is the second largest heading font size-->
+			
+			<div>
+			<!--'div' provides space between elements by making them appear in different lines-->
+			
+			<p>
+			"All Too Well" is a beautifully penned heartbreak anthem reminiscing a love Taylor cherished whole-heartedly, which fans speculate was the brief relationship she had with <i> Brokeback Mountain </i> actor <a href="https://en.wikipedia.org/wiki/Jake_Gyllenhaal" target="_blank">Jake Gyllenhaal</a> back in 2010, 2 years before the song's release.
+			</p>
+			<!--'p' tag is for creating a formatted paragraph,
+			'href' sets the destination of the hyperlink,
+			'target' sets how the link will be opened,
+			'_blank' opens the hyperlink in a new tab
+			'i' tag makes the text within it appear in italics-->
+			
+			</div>
+			<!--end of div tag-->
+			
+			<div>
+			
+			<img class="image" src="pics/date.jpg" alt="Taylor and Jake on a date">
+			<!--'img' is the image tag for HTML,
+			'class' specifies the content within the div tag into a certain class for CSS styling,
+			'src' refers to the image source,
+			'pics/' is the folder the image is from,
+			'date.jpg' is the name of the image saved in the same folder as this file (changeable depending on the image to be used),
+			'alt' is the alternate text that will appear if image cannot be displayed-->
+			
+			</div>
+			
+			<div>
+			
+			<p class="comment">
+			<!--start of a formatted paragraph-->
+			
+			<small><i> Taylor Swift and Jake Gyllenhaal happily on a date. </i></small>
+			<!--'small' tag makes the text within it appear smaller,
+			'i' tag makes the text appear in italics-->
+			
+			</p>
+			<!--end of a formatted paragraph-->
+			
+			</div>
+			
+			<div>
+			
+			<p>
+			Fans connected the dots after seeing many relations between the actor and singer's relationship with the lyrics written for the popular song. From miniscule details to clear evidence, fans have no doubt that the <i>Donnie Darko</i> star is the main protagonist of the heartfelt song sung from Taylor's point of view.
+			</p>
+			
+			</div>
+			
+			<div>
+			
+			<img class="image" src="pics/grammy.jpg" alt="Taylor Swift 2014 Grammy Performance">
+			
+			</div>
+			
+			<p class="comment"> 
+			<small><i>Taylor giving an emotional performance of the song at the 2014 Grammy Awards.</i>
+			<br>(<a href="https://www.youtube.com/watch?v=tDBToV_MD-k" target="_blank">link to the performance</a>)</small>
+			</p>
+			
+			<div>
+			
+			<h3 class="title2">
+			<ins>
+			Lyrical Breakdown of "All Too Well"
+			</ins>
+			</h3>
+			<!--'ins' tag makes the text appear underlined,
+			'h3' tag is the third largest heading font size-->
+			
+			</div>
+			
+			<p class="comment">
+			
+			<small>
+			<i>
+			<b>
+			Give the song a listen while you go through the lyrics: 
+			</b>
+			</i>
+			</small>
+			<!--'b' tag makes the text within it appear bolded-->
+			
+			</p>
+			
+			<audio controls class="player">
+				<source src="audio/alltoowell.mp3" type="audio/mpeg">
+			</audio>
+			<!--'audio' tag plays an audio in the HTML file,
+			'controls' adds audio control like play, pause and volume,
+			'class' specifies the class of an element for CSS styling,
+			'src' defines where the audio file is from,
+			'type' specifies the media type and '/mpeg' is the subtype-->
+		
+			<h4 class="heading">
+			Intro
+			</h4>
+			<!--'h4' tag is the fourth largest heading font size-->
+			
+			<div>
+			
+			<p class="lyrics">
+			"I walked through the door with you, the air was cold <br>
+			But something 'bout it felt like home somehow <br>
+			And I left my scarf there at your sister's house <br>
+			And you've still got it in your drawer, even now" <br>
+			</p>
+			
+			<!--'br' tags creates a line break in a text-->
+			
+			<p>
+			In the introduction of the song, Taylor Swift recalls the first time she returned to her lover's home, feeling odd but not out of place. She vividly remembers the item she left behind and how her past lover is also still holding onto it, showing that their parting was not easily forgotten by either of them.
+			</p>
+			
+			</div>
+			
+			<h4 class="heading">
+			Verse 1
+			</h4>
+			
+			<div>
+			
+			<p class="lyrics">
+			"Oh, your sweet disposition and my wide-eyed gaze <br>
+			We're singing in the car, getting lost upstate <br>
+			Autumn leaves falling down like pieces into place <br>
+			And I can picture it after all these days" <br>
+			</p>
+			
+			<p>
+			In the first verse, Taylor Swift paints a beautiful picture of how everybody would dream their lives would be with that one special person. This is the start of a relationship-hope is the keyword and everything looks vibrant. Taylor Swift says being with this person made her feel like she was home. She was comfortable and he was warm. It seemed as if all the pieces were falling in perfect fit-like the autumn leaves falling. But little did she know, fall of autumn leaves signify seasonal change where trees hibernate for the winter season. The trees basically die down. Taylor was quite naive and full of love and hope to realize this.
+			</p>
+			
+			</div>
+			
+			<h4 class="heading">
+			Pre-Chorus
+			</h4>
+			
+			<div>
+			
+			<p class="lyrics">
+			"And I know it's long gone and <br>
+			That magic's not here no more <br>
+			And I might be okay, but I'm not fine at all <br>
+			Oh, oh, oh" <br>
+			</p>
+			
+			<p>
+			“All Too Well” is a walk down memory lane--a bitter one at that. She looks back at that time where everything looked colorful. The time has passed long since and she is struggling to unstrap herself from the strings.
+			</p>
+			
+			</div>
+			
+			<h4 class="heading">
+			Chorus
+			</h4>
+			
+			<div>
+			
+			<p class="lyrics">
+			"'Cause there we are again on that little town street <br>
+			You almost ran the red 'cause you were lookin' over at me <br>
+			Wind in my hair, I was there <br>
+			I remember it all too well" <br>
+			</p>
+			
+			<p>
+			The chorus of “All Too Well” blurs the line of reality and her imagination. She is obviously reminiscing something from the past, but as she does it becomes her reality. <i>"You almost ran the red ’cause you were looking over at me"</i> This guy was so enchanted with the visual of Taylor Swift, that he almost drove the red light while he was driving. “Wind in my hair” usually refers to freedom or lack of responsibility. So Taylor thinks back to those days when she had little to worry about. The chorus starts off with the present tense “there we are again” and ends in the past tense “I was there, I remember it all too well.” So it is obvious that all this time she was imagining of the past.
+			</p>
+			
+			</div>
+			
+			<h4 class="heading">
+			Verse 2
+			</h4>
+			
+			<div>
+			
+			<p class="lyrics">
+			"Photo album on the counter, your cheeks were turning red <br>
+			You used to be a little kid with glasses in a twin-sized bed <br>
+			And your mother's telling stories 'bout you on the tee-ball team <br>
+			You tell me 'bout your past, thinking your future was me" <br>
+			</p>
+			
+			<p>
+			The second verse of “All Too Well” reminisces about the time Taylor Swift visited <del>Jake Gyllenhaal’s</del> her ex-lover's home and met his parents. She remembers checking out the childhood pictures of him wearing specs. Him and his mother chatted up with Taylor Swift telling stories from their childhood thinking the couple would remain close in the future, but unfortunately, that was not the case. 
+			</p>
+			
+			<!--'del' tag strikes a line through the text within it, indicating that it has been "deleted"-->
+
+			
+			<img class="image2" src="pics/instapost.jpg" alt="Jake Gyllenhaal Instagram Post">
+			
+			<p class="comment">
+			<small><i>
+			Jake Gyllenhaal's (deleted) Instagram post of his childhood photo which sparked discourse amongst Taylor Swift fans
+			</i></small>
+			</p>
+			
+			</div>
+			
+			<h4 class="heading">
+			Pre-Chorus 2
+			</h4>
+			
+			<div>
+			
+			<p class="lyrics">
+			"And I know it's long gone and <br>
+			There was nothing else I could do <br>
+			And I forget about you long enough <br>
+			To forget why I needed to" <br>
+			</p>
+			
+			<p>
+			Taylor thinks back to the days and reminds herself that it was a long time ago and it is about time she moved on. But the stronger she tries to forget him, the memories come in flooding as to why she needed him in the first place. It is an internal warfare.
+			</p>
+			
+			</div>
+			
+			<h4 class="heading">
+			Chorus 2
+			</h4>
+			
+			<div>
+			
+			<p class="lyrics">
+			"'Cause there we are again in the middle of the night <br>
+			We're dancing ‘round the kitchen in the refrigerator light <br>
+			Down the stairs, I was there <br>
+			I remember it all too well, yeah" <br>
+			</p>
+			
+			<p>
+			Taylor Swift is thinking back to the sweet memories they had collected like dancing in the middle of the night in the refrigerator light, something we all wish to experience at least once in our lives. She remembers all of these all too well to just wipe it off her memory. Hence, the struggle.
+			</p>		
+			
+			</div>
+			
+			<h4 class="heading">
+			Bridge
+			</h4>
+			
+			<div>
+			
+			<p class="lyrics">
+			"Maybe we got lost in translation <br>
+			Maybe I asked for too much <br>
+			But maybe this thing was a masterpiece <br>
+			'Til you tore it all up <br>
+			Running scared, I was there <br>
+			I remember it all too well <br>
+			And you call me up again <br>
+			Just to break me like a promise <br>
+			So casually cruel in the name of being honest <br>
+			I'm a crumpled up piece of paper lying here <br>
+			'Cause I remember it all, all, all <br>
+			Too well" <br>
+			</p>
+			
+			<p>
+			Undoubtedly one of the best bridges ever written, Taylor talks about how she and her lover had two different ideas about their relationship; Taylor wanted something serious and long-lasting and her ex didn't want to commit and ran away, destroying all the good that they had built together. <a href="https://en.wikipedia.org/wiki/Lost_in_Translation_(film)" target="_blank">Lost in Translation</a> is a movie from 2000 and portrays a short-lived relationship between two strangers. The similarities in the movie and Taylor’s relationship are too similar to just ignore this reference as random. Taylor Swift once mentioned in a <a href="https://www.popdust.com/i-love-living-a-life-that-i-can-write-about-talking-with-taylor-swift--1889582428.html" target="_blank">Pop Dust</a> interview that the lyric <i>'And you call me up again just to break me like a promise, so casually cruel in the name of being honest’</i>  is the lyric she is most proud of on Red. Her fans feel the same way, and they are always singing that line as if they had just gotten stood up on their birthday by the person who they thought were the love of their lives (oops, sorry Taylor).
+			
+			<br>
+			<br>
+			
+			And finally, Taylor uses the metaphor "crumpled piece of paper" to describe herself post-breakup. A key theme in this song is change. Take a clean sheet of paper, and crumple it up. No matter what you do to that crumpled up piece of paper, you can’t make that sheet into the clean, pure piece of paper that it originally was. Her relationship with her ex-lover was so strong, that once they broke up, she was forever changed.
+			</p>
+			
+			</div>
+			
+			<h4 class="heading">
+			Verse 3
+			</h4>
+			
+			<div>
+			
+			<p class="lyrics">
+			"Time won't fly, it's like I'm paralyzed by it <br>
+			I'd like to be my old self again, but I'm still trying to find it <br>
+			After plaid shirt days and nights when you made me your own <br>
+			Now you mail back my things and I walk home alone <br>
+			But you keep my old scarf from that very first week <br>
+			'Cause it reminds you of innocence and it smells like me <br>
+			You can't get rid of it <br>
+			'Cause you remember it all too well, yeah" <br>
+			</p>
+			
+			<p>
+			My personal favourite verse, the third and final verse of “All Too Well” speaks about recovery. She believes that time is a healer but this time, it isn’t even moving. She is crumpled by a time she is stuck in. The matching shirts, wild and intimate nights, dinners, walks and everything else keeps Taylor from moving on. He mails her the stuff she had kept at his place. He doesn’t even have the spine to deliver them. But he does not return one thing back. That scarf she wore on their very first date. She mentions specifically that it’s from “that very first week,” when their romance, and romance in general, was still fresh and new to them. In a way, the scarf is a symbol of his relationship with Taylor, and his relationship with Taylor is a symbol of his lost innocence. And Taylor knows this because she feels the same way, as we can tell from the line <i>'I’d like to be my old self again, but I’m still trying to find it'</i>.
+			</p>
+			
+			</div>
+			
+			<h4 class="heading">
+			Chorus 3
+			</h4>
+			
+			<div>
+			
+			<p class="lyrics">
+			"'Cause there we are again when I loved you so <br>
+			Back before you lost the one real thing you've ever known <br>
+			It was rare, I was there <br>
+			I remember it all too well" <br>
+			</p>
+			
+			<p>
+			Taylor Swift says their relationship was the only real one he has had and he is most likely regretting giving up on it. She was there for him and her type was difficult to come by, and all these memories she remembers all too well to just forget and move on.
+			</p>
+			
+			</div>
+			
+			<h4 class="heading">
+			Outro
+			</h4>
+			
+			<div>
+			
+			<p class="lyrics">
+			"Wind in my hair, you were there <br>
+			You remember it all <br>
+			Down the stairs, you were there <br>
+			You remember it all <br>
+			It was rare, I was there <br>
+			I remember it all too well" <br>
+			</p>
+			
+			<p>
+			The outro of the song shows Taylor Swift is on the fence. She is reeling back to the carefree times she had with the guy and all the memories they accumulated together. With the last three lines, Taylor recalls all the important moments she talked about in the song: her past lover almost running a red light while looking at her hair and dancing around the kitchen downstairs. She’s positive that he remembers these special times. The one difference? He may not have realized how special their sad, beautiful, tragic love affair was, but she sure did. She knows their relationship is over, but she won’t forget it easily.
+			</p>
+			
+			</div>
+			
+		</section>
+		<!--end of the section-->
+		
+		<footer class="footer">
+		<!--'footer' tag indicates the content within it will always be under the other content of the webpage-->
+		
+			<i>Download <b>Red (Taylor's Version)</b> now</i>
+			
+			<ul>
+				<li>
+				<a href="https://redtaylorsversion.taylorswift.com/" target="_blank">
+				<img class="download" src="pics/spotify.png" alt="Spotify Logo">
+				</a>
+				</li>
+				<li>
+				<a href="https://music.apple.com/us/album/1590368448?ign-itscg=30440&ign-itsct=catchall_p2" target="_blank">
+				<img class="download" src="pics/applemusic.png" alt="Apple Music Logo">
+				</a>
+				</li>
+				<li>
+				<a href="https://music.apple.com/us/album/1589139584?ign-itscg=30440&ign-itsct=catchall_p3" target="_blank">
+				<img class="download" src="pics/itunes.png" alt="iTunes logo">
+				</a>
+				</li>
+			</ul>
+			
+		</footer>
+		<!--end of the footer of the page-->
+		
+	</body>
+	<!--end of the webpage's content-->
+
+</html>
+<!--end of the html file-->
