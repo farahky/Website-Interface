@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<!--tells the browser that this is a HTML5 document-->
+
+<html lang="en">
+<!--'html' tag tells the browser that everything inside it is html
+'lang' attribute declares the language of the webpage, in this case english-->
+
+	<head>
+	<!--stores information of the head of the page (top of the page)-->
+	
+		<meta charset="utf-8">
+		<!--translates the letters, numbers & symbols used into bytes understood by computers-->
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!--'name=viewport' specifies the name for the metadata, in this case the view visible to the user,
+		'content=width=device-width' resizes the webpage to the width of any device it is viewed on,
+		'content initial-scale=1' sets the initial zoom of the webpage to not be zoomed in/out-->
+		
+		<title>
+		Red Taylor's Version
+		</title>
+		<!--'title' tag will show the text within it as the title of the page-->
+		
+		<link rel="icon" href="pics/redlogo.png" type="image/png">
+		<!--'rel' specifies the relationship between this file and the linked document, so the image it is linked to will become the icon in the page title,
+		'href' sets the destination, in this case a picture saved in the same folder as this file,
+		'type' specifies the media type and '/png' is the subtype-->
+		
+		<link rel="stylesheet" href="style4.css">
+		<!--links external CSS to style the webpage-->
+		
+	</head>
+	<!--end of the head of the page-->
+	
+	
+	<body>
+	<!--main content of the webpage-->
+	
+		<header class="main-header">
+		<!--'header' is top of the website page-->
+		<!--'class' is used to specify certain elements within a class for CSS styling.
+		class name can be changed for each element, in this case the class for the header is 'main-header'-->
+		
+			<nav class="nav">
+			<!--'nav' tag defines a set of navigation links-->
+			
+				<ul>
+				<!--'ul' tag is used for an unordered list; elements in the list will not numbered-->
+					
+					<!-- elements in a list (ordered and unordered) needs to be placed within an 'li' tag-->
+					<li><a href="index.html"> Home </a></li>
+					<li><a href="about.html"> About </a></li>
+					<li><a href="others.html"> Others </a></li>
+					<!--'a' tag defines a hyperlink,
+					'href' sets the destination of the hyperlink-->
+					
+				</ul>
+				<!--end of unordered list tag-->
+				
+			</nav>
+			<!--end of 'nav' tag-->
+			
+			<hr>
+			<!--horizontal line-->
+			
+		</header>
+		<!--end of the header-->
+		
+		<section class="content container">
+		<!--'section' tag defines a section in the file,
+		'class=content container' refers to two classes within the same section for CSS styling-->
+		
+			<h1 class="heading">
+			OOPS!
+			</h1>
+			<!--'h1' is the largest heading font size-->
+			
+			<h2 class="comment">
+			This page has yet to be set up. Please click HOME or ABOUT at the navigation bar to view proper content. Thank you and have a nice day.
+			</h2>
+			<!--'h2' is the second largest heading font size-->
+		
+		</section>
+		<!--end of section tag-->
+
+		<footer class="footer">
+		<!--'footer' tag indicates the content within it will always be under the other content of the webpage-->
+		
+			<i>Download <b>Red (Taylor's Version)</b> now</i>
+			<!--'i' tag makes the text appear in italics,
+			'b' tag makes the text appear bolded-->
+			
+			<ul>
+				<li>
+				<a href="https://redtaylorsversion.taylorswift.com/" target="_blank">
+				<img class="download" src="pics/spotify.png" alt="Spotify Logo">
+				</a>
+				</li>
+				<li>
+				<a href="https://music.apple.com/us/album/1590368448?ign-itscg=30440&ign-itsct=catchall_p2" target="_blank">
+				<img class="download" src="pics/applemusic.png" alt="Apple Music Logo">
+				</a>
+				</li>
+				<li>
+				<a href="https://music.apple.com/us/album/1589139584?ign-itscg=30440&ign-itsct=catchall_p3" target="_blank">
+				<img class="download" src="pics/itunes.png" alt="iTunes Logo">
+				</a>
+				</li>
+			</ul>
+			
+			<!--'img' is the image tag for HTML,
+			'src' refers to the image source,
+			'pics/' is the folder the image is from,
+			'{name}.jpg' is the name of the image saved in the same folder as this file (changeable depending on the image to be used),
+			'alt' is the alternate text that will appear if the image cannot be displayed-->
+			
+		</footer>
+		<!--end of the footer of the page-->
+		
+	</body>
+	<!--end of the webpage's content-->
+
+</html>
+<!--end of the html file-->	
