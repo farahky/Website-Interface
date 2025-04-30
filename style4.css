@@ -1,0 +1,119 @@
+/* this affects all HTML elements on the page */
+*{
+	box-sizing: border-box;
+	font-family: Garamond;
+	font-size: 1.05em;
+}
+/* 'box-sizing: border-box' includes padding and border in the width and height of all elements,
+'font-family' is the family of the font used on the webpage which is garamond, an in-built font for CSS,
+'font-size' is the size of the font on the webpage, by using em as its unit, the text size can be adjusted in all browsers. the smaller the value, the smaller the font size and vice versa */
+
+/* this affects all html elements under the html and body tag */
+html, body {
+	margin:0;
+	padding:0;
+	background-image: radial-gradient(circle, #FF7E72, #FF998B, #FFB5A6, #FFFFFF);
+}
+/* 'margin' is used to create space around elements outside any defined borders. by setting it to 0, the top-bottom margin is auto and element will automatically be centered by the browser,
+'padding' is used to create space around elements inside any defined borders. by setting it to 0, there is no space between the content and border box, and when the value increases the space also increases,
+'background-image' refers to the image of the background, by setting its value to 'radial-gradient' the background image will be a radial gradient in accordance to (shape, center color, second color, third color, outermost color) */
+
+/* this affects all html elements within the <ul> tag under the 'nav' class */
+.nav ul {
+	margin:0;
+	text-align: center;
+}
+/* 'text-align' aligns the text according to its value, in this case, centered */
+
+/* this affects all html elements within the <li> tag in the <ul> tag under the 'nav' class */
+.nav li {
+	display: inline-block;
+	padding: 0.5em;
+	color: white;
+	font-size: 1.1em;
+	font-weight: lighter;
+}
+/* 'display: inline-block' does not add a line-break after each element, making the elements appear in one line,
+'padding: 0.5em' creates space around each element in the <li> tag so that they aren't too close to each other,
+'font-weight' sets the thickness/thinness of a text. 'lighter; makes the text not as thick as other texts */
+
+/* this affects all html elements within the <a> tag under the 'nav' class */
+.nav a {
+	display: inline-block;
+	color: white;
+	padding: 0.5em;
+	text-decoration: none;
+	font-size: 1.1em;
+	font-weight: lighter;
+}
+/* 'color' refers to the color of the text that appears instead of the hyperlink and can be defined using rgb/rgba/hex codes,
+'text-decoration: none' removes the underline that is available by default when a hyperlink is attached */
+
+/* this affects all html elements under the 'main-header' class */
+.main-header {
+	padding-bottom: 30px;
+}
+/* 'padding-bottom' sets the bottom padding of an element, here by 30pixels  */
+
+/* this affects all html elements under the 'content' class */
+.content {
+	margin: 100px;
+	width: 100%;
+	height: 100vh;
+}
+/* margin of 100px creates a space outside all borders of 100pixels,
+setting the width to 100% makes the width of the element the same as the max-width,
+setting the height to 100vh means the height of the element will be the same as 100% of the viewport height of the screen */
+
+/* this affects all html elements under the 'container' class */
+.container {
+	max-width: 700px;
+	margin: auto;
+	padding: 1.5em;
+	text-align: center;
+}
+/* visual changes that appear after the 'content' class while being in the same tag,
+'max-width' defines the maximum width of an element on a device's screen,
+'margin: auto' sets the left-right margin of the elements automatically, making it centered */
+
+/* this affects all html elements under the 'heading' class */
+.heading {
+	margin-top: 250px;
+	margin-bottom: 0;
+	font-size: 5.0em;
+	color: white;
+}
+/* 'margin-top' and 'margin-bottom' specifies the top and bottom margin of an element instead of the overall margin around the element */
+
+/* this affects all html elements under the 'comment' class */
+.comment {
+	color: rgb(244, 226, 198);
+}
+
+/* this affects all html elements under the 'footer' class */
+.footer {
+	color: white;
+	padding: 0.25em 0;
+	text-align: center;
+}
+
+/* this affects all html elements within the <ul> tag under the 'footer' class */
+.footer ul {
+	margin:0;
+}
+
+/* this affects all html elements within the <li> tag in the <ul> tag under the 'footer' class */
+.footer li {
+	display: inline-block;
+	padding: 1.0em;
+	color: white;
+	font-size: 1.1em;
+	font-weight: lighter;
+}
+
+/* this affects all html elements under the 'download' class */
+.download {
+	width: 30px;
+	height: 30px;
+}
+/* 'width' and 'height' refers to the width and height of the elements (which are images) specified using pixel values */
